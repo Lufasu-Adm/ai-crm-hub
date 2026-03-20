@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Environment Variables (Sangat Penting!)
+.env
+
+# Docker
+postgres_data/
+
+# Editor
+.vscode/
+.idea/
