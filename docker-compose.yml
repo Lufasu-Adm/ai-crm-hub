@@ -12,12 +12,14 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    restart: always
 
   redis:
     image: redis:alpine
     container_name: crm_redis
     ports:
       - "6379:6379"
+    restart: always
   
   n8n:
     image: n8nio/n8n:latest
@@ -29,6 +31,8 @@ services:
       - NODE_ENV=production
     volumes:
       - n8n_data:/home/node/.local/share/n8n
+    restart: always
 
 volumes:
   postgres_data:
+  n8n_data: 

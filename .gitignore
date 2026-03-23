@@ -3,14 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 venv/
-.venv/
-
-# Environment Variables (Sangat Penting!)
 .env
 
-# Docker
-postgres_data/
+# Databases
+*.sqlite3
+postgres-data/
 
-# Editor
+# IDE
 .vscode/
 .idea/
+
+# OS
+.DS_Store
+Thumbs.db
