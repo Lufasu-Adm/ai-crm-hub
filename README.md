@@ -1,9 +1,16 @@
-# 🚀 AI CRM Hub: Intelligent Lead Scoring & Event-Driven Automation
+# AI CRM Hub: Intelligent Lead Scoring & Event-Driven Automation
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Async-green)
 ![Docker](https://img.shields.io/badge/Docker-Ready-blue)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
+
+
+## 🎬 Demo
+
+<p align="center">
+  <img src="https://github.com/Lufasu-Adm/AI-QUIZ-EVENT/blob/main/docs/demo/0316.gif" width="900"/>
+</p>
 
 AI CRM Hub adalah sistem **AI-powered lead management** yang dirancang untuk membantu tim sales mengidentifikasi, memprioritaskan, dan merespons prospek secara otomatis dan real-time.
 
