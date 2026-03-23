@@ -9,7 +9,7 @@
 ## 🎬 Demo
 
 <p align="center">
-  <img src="https://github.com/Lufasu-Adm/AI-QUIZ-EVENT/blob/main/docs/demo/0316.gif" width="900"/>
+  <img src="https://github.com/Lufasu-Adm/ai-crm-hub/blob/main/public/0323.gif" width="900"/>
 </p>
 
 AI CRM Hub adalah sistem **AI-powered lead management** yang dirancang untuk membantu tim sales mengidentifikasi, memprioritaskan, dan merespons prospek secara otomatis dan real-time.
