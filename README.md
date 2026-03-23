@@ -1,16 +1,16 @@
-# AI CRM Hub: Intelligent Lead Scoring & Event-Driven Automation
+# 🚀 AI CRM Hub: Intelligent Lead Scoring & Event-Driven Automation
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Async-green)
 ![Docker](https://img.shields.io/badge/Docker-Ready-blue)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-
 ## 🎬 Demo
 
 <p align="center">
   <img src="https://github.com/Lufasu-Adm/ai-crm-hub/blob/main/public/0323.gif" width="900"/>
 </p>
+
 
 AI CRM Hub adalah sistem **AI-powered lead management** yang dirancang untuk membantu tim sales mengidentifikasi, memprioritaskan, dan merespons prospek secara otomatis dan real-time.
 
@@ -84,7 +84,23 @@ E --> F[Telegram Notification]
 
 ## 📁 Project Structure
 
+```plaintext
+ai-crm-hub/
+├── backend/
+│   ├── .env               # File rahasia (tidak di-push)
+│   ├── main.py            # Entry point FastAPI
+│   ├── models.py          # SQLAlchemy models
+│   ├── schemas.py         # Pydantic schemas
+│   ├── database.py        # DB connection logic
+│   ├── ai_service.py      # Gemini AI logic
+│   └── requirements.txt
+├── frontend/
+│   └── index.html         # Landing page & Form
+├── docker-compose.yml
+├── .gitignore
+└── README.md
 ```
+
 ai-crm-hub/
 │
 ├── backend/
@@ -98,7 +114,8 @@ ai-crm-hub/
 ├── n8n/
 ├── docker-compose.yml
 └── README.md
-```
+
+````
 
 ---
 
@@ -106,9 +123,9 @@ ai-crm-hub/
 
 ### 1. Prerequisites
 
-* Python 3.10+
-* Docker & Docker Compose
-* Gemini API Key
+- Python 3.10+
+- Docker & Docker Compose
+- Gemini API Key
 
 ### 2. Environment Setup
 
@@ -118,7 +135,7 @@ Buat file `.env` di folder `backend/`:
 DATABASE_URL=postgresql://user:password@localhost:5432/crm_db
 GEMINI_API_KEY=your_google_api_key_here
 N8N_WEBHOOK_URL=http://localhost:5678/webhook/your-webhook-id
-```
+````
 
 ### 3. Installation
 
