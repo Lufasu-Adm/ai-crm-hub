@@ -1,4 +1,4 @@
-# 🚀 AI CRM Hub: Intelligent Lead Scoring & Event-Driven Automation
+# AI CRM Hub: Intelligent Lead Scoring & Event-Driven Automation
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Async-green)
